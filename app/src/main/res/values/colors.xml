@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+<!--    for the primary color of your app-->
+
+    <!--    for text and background elements -->
+
+    <!--    used for buttons and accents to provide a subtle contrast to the deep blue-->
+    <color name="Teal">#00A79D</color>
+
+<!--    or highlights and call-to-action elements. It adds a friendly and inviting touch to the app.-->
+
+    <!--    for borders, dividers, and secondary text elements-->
+    <color name="Dark_Gray">#333333</color>
+
+</resources>
