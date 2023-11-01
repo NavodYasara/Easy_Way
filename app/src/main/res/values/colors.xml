@@ -3,15 +3,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-<!--    for the primary color of your app-->
-
+    <!--    for the primary color of your app-->
+    <color name="Blue">#3498db</color>
     <!--    for text and background elements -->
-
+    <color name="Orange">#f39c12</color>
     <!--    used for buttons and accents to provide a subtle contrast to the deep blue-->
     <color name="Teal">#00A79D</color>
-
-<!--    or highlights and call-to-action elements. It adds a friendly and inviting touch to the app.-->
-
+    <!--    or highlights and call-to-action elements. It adds a friendly and inviting touch to the app.-->
+    <color name="Yellow">#fff33f</color>
     <!--    for borders, dividers, and secondary text elements-->
     <color name="Dark_Gray">#333333</color>
 

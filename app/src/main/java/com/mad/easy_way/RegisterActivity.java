@@ -13,6 +13,7 @@ import android.widget.Toast;
 public class RegisterActivity extends AppCompatActivity {
 
     EditText edUsername,edEmail,edPassword,edconfirm;
+
     Button btn;
     TextView tv;
 
