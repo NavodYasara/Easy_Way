@@ -3,6 +3,9 @@ package com.mad.easy_way;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -15,6 +18,13 @@ public class OrderDetailsActivity extends AppCompatActivity {
 
     Button btn;
 
+    String[] disricts = {"Colombo", "Galle", "Gampaha", "Hambantota", "Jaffna", "Kalutara", "Kandy",
+            "Kegalle", "Kilinochchi", "Kurunegala", "Mannar", "Matale", "Matara", "Moneragala", "Mullaitivu",
+            "Nuwara Eliya", "Polonnaruwa", "Puttalam", "Ratnapura", "Trincomalee", "Vavuniya"};
+
+    AutoCompleteTextView autoCompleteTxt;
+
+    ArrayAdapter<String> adapterItems;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,6 +55,16 @@ public class OrderDetailsActivity extends AppCompatActivity {
             }
         });
 
+        autoCompleteTxt = findViewById(R.id.auto_complete_txt);
+        adapterItems = new ArrayAdapter<>(this,R.layout.list_item);
+        autoCompleteTxt.setAdapter(adapterItems);
+        autoCompleteTxt.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                String item = parent.getItemAtPosition(position).toString();
+                Toast.makeText(getApplicationContext(),"Item:"+item,Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
 }

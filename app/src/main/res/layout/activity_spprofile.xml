@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Teal"
+    android:background="@drawable/bgmain"
     tools:context=".SPProfileActivity">
 
     <TextView
@@ -65,6 +65,7 @@
         android:id="@+id/btn_order"
         android:layout_width="220dp"
         android:layout_height="45dp"
+        android:background="@color/Teal"
         android:text="Oder Here"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

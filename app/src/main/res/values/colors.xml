@@ -8,10 +8,13 @@
     <!--    for text and background elements -->
     <color name="Orange">#f39c12</color>
     <!--    used for buttons and accents to provide a subtle contrast to the deep blue-->
-    <color name="Teal">#00A79D</color>
+    <color name="Teal">#c7522a</color>
     <!--    or highlights and call-to-action elements. It adds a friendly and inviting touch to the app.-->
     <color name="Yellow">#fff33f</color>
     <!--    for borders, dividers, and secondary text elements-->
     <color name="Dark_Gray">#333333</color>
+    <!--for service provider bg-->
+    <color name="Goald_Pizza">#e5c185</color>
+
 
 </resources>

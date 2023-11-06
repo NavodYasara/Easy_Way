@@ -6,6 +6,13 @@
     android:layout_height="match_parent"
     android:background="@color/white">
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bgmain"
+        android:scaleType="centerCrop"
+        />
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="285dp"
